@@ -60,7 +60,7 @@ By : ${chalk.bold('Arnazx#9611')}
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User By Zee: ${username}`)} | ${chalk.blue(`Trophy By Zee : ${trophy}`)} | ${chalk.green(`Crown By Zee: ${crown}`)}`));
-      await sleep(20000);
+      await sleep(8000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Mampus ke banned akunnya aowokaw:v`));
